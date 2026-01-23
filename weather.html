@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Weather</title>
+        <link href="styles.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="test.js"></script>
+    </head>
+    <body>
+      <div class="containter text-center big-margin" id="navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="addison.html" id="addison">Addison Hans</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" aria-current="page" id="weather">Weather</a>
+          </li>
+        </ul>
+        </nav>
+      </div>
+        <div class="containter px-4 text-center big-margin" id="weatherContainer">
+                <h3>Weather</h3>
+                <form class="row justify-content-center" id="addressForm">
+                    <div class="col-auto text-center">
+                        <label for="location" class="col-form-label">Zip-Code</label>
+                    </div>
+                    <div class="col-auto text-center">
+                        <input type="text" id="location" class="form-control">
+                    </div>
+                    <div class="col-auto text-center">
+                        <button type="button" id="loc" class="btn btn-secondary">Get Weather</button><br>
+                    </div>
+                </form>
+                <div class="row align-items-center" id="invalidZip"></div>
+        </div>
+                <div class="container text-center big-margin" id="mainWeather1">
+                </div>
+                <div class="container text-center big-margin" id="weather2"> 
+                </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>

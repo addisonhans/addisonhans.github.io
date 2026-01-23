@@ -1,0 +1,29 @@
+.weatherCol {
+    background-color: #343a40;
+    color: #dce2ed;
+    border-radius: 10px;
+}
+ #shortFore {
+    font-size: small;
+}
+.big-margin {
+    padding-bottom: 20px;
+}
+.scrollable {
+    overflow-y: scroll;
+    height: 150px;
+    width: 75%;
+    align-items: center;
+}
+.history {
+    background-color: #343a40;
+    color: #dce2ed;
+    border-radius: 10px;
+}
+.list-group-item {
+    padding: 1px;
+    border-radius: 10px;
+}
+.row {
+    padding-bottom: 20px;
+}
